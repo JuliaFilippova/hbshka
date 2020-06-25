@@ -1,0 +1,18 @@
+.off-block {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 600px) {
+    .off-block p.h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 470px) {
+    .off-block p.h1 {
+        font-size: 24px;
+    }
+}

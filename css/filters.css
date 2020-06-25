@@ -1,0 +1,97 @@
+/* 
+    Блок фильтров
+ */
+.filter-area {
+    max-height: 500px;
+    overflow-y: auto;
+}
+.filters-block{
+    display: none;
+    width: 300px;
+    position: absolute;
+    left: 15px;
+    top: 40px;
+    background-color: rgba(255,255,255,0.7);
+    border: 1px solid #676868;
+    z-index: 50;
+}
+
+/* 
+    Аккордеон
+ */
+.acc ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+.acc ul li a{
+    color: #2d2d2d;
+}
+.acc ul li a.list-item-active{
+    text-decoration: underline;
+}
+.has-list {
+    position: relative;
+}
+/* .has-list:nth-child(1){
+    display: block;
+} */
+
+.acc-head > div {
+    display: none;
+    /*max-height: 0px; opacity: 0;
+    transition: 0.5s;*/
+}
+.acc-head.opened > div {
+    display: block;
+    /*max-height: 9999px; opacity: 1;*/
+}
+
+.has-list > ul {
+    display: none;
+    /*max-height: 0px; opacity: 0;
+    transition: 0.5s;*/
+}
+.has-list.opened > ul {
+    display: block;
+    /*max-height: 9999px; opacity: 1;*/
+}
+
+.has-list > a > span,
+.acc-head-item > span {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+
+    width: 10px;
+    height: 10px;
+    top: 9px;
+    right: 15px;
+}
+
+.acc-head-item > span {
+    width: 15px;
+    height: 15px;
+    top: 7px;
+    right: 0px;
+}
+
+/* по дефолту будет закрыто */
+.has-list > a > span,
+.acc-head > .acc-head-item > span {
+    background-image: url(../img/plus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.has-list.opened > a > span,
+.acc-head.opened > .acc-head-item > span {
+    background-image: url(../img/minus.png);
+}
+/* End. */
+
+@media (max-width: 1460px) { }
+@media (max-width: 767px) { }
+@media (max-width: 470px) { }

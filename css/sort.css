@@ -1,0 +1,44 @@
+.f-img{
+	margin-top: -3px;
+}
+.custom-select {
+    width: 30%;
+    border-radius: 0;
+    border-color: #c7c8c7;
+    background: url(../img/careet.png) no-repeat right .75rem center/16px 9px;
+    padding: .2rem 2.5rem .375rem .75rem;
+    height: calc(1.5em + .5rem + 1px);
+}
+.vid-active .img-gray,
+.vid-default .img-blue{
+	display: none;
+}
+@media (max-width: 1199px) {
+.custom-select {
+    width: 60%;
+}
+}
+@media (max-width: 991px) {
+.custom-select {
+    width: 50%;
+}
+}
+@media (max-width: 767px) {
+.open-filters span{
+    display: none;
+}
+.open-filters img{
+    margin-right: 0 !important;
+}
+}
+@media (max-width: 576px) {
+.vid span{
+	display: none;
+}
+.custom-select {
+    width: 70%;
+}
+}
+@media (max-width: 470px) {
+
+}

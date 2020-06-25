@@ -1,0 +1,25 @@
+.page-link {
+    border: 0;
+    color: #676868;
+}
+.page-item.disabled .page-link {
+    color: #FF738E;
+}
+.page-link:hover {
+    z-index: 2;
+    color: #2d2d2d;
+    text-decoration: underline;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none !important;
+}
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 470px) {
+
+}

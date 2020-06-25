@@ -1,0 +1,32 @@
+.bscrmb{
+    z-index: 20;
+}
+.breadcrumb{
+    background-color: transparent;
+}
+.breadcrumb-item,
+.breadcrumb-item a{
+	font-size: 16px;
+}
+.breadcrumb-item a{
+	color: #9ECDFB;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    margin-right: .5rem;
+    padding-right: 0;
+    content: "";
+    width: 8px;
+    height: 11px;
+    background-image: url(../img/marc-bsc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+@media (max-width: 600px) {
+ol.breadcrumb.bg-white.my-2 {
+    padding-left: 0;
+}
+}

@@ -1,0 +1,126 @@
+/*IE8*/
+.d-flex-ie { 
+  display: table-cell\0/; 
+}
+/*IE8*/
+
+/*IE7*/
+ 
+/*IE7*/
+
+
+.btn-new-msg {
+  right: 15px;
+  top: -80px;
+}
+.panel{
+    margin-bottom: 0px;
+}
+.chat-box{
+  max-height: 560px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+/*scrooll*/
+.chat-box::-webkit-scrollbar {
+  height: 30px;
+  width: 5px;
+}
+
+.chat-box::-webkit-scrollbar-track {
+  background: #DEE7EC;
+  border-radius: 5px;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  background: #6286CC;
+  border-radius: 5px;
+}
+/*scrooll*/
+.chat-body {
+  border-top: 1px solid #9ECDFB;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+.customer {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.msg-adm  {
+  background: #FFFAFB;
+  border-radius: 10px;
+}
+.msg-custmr {
+  background: #F2F9FF;
+  border-radius: 10px;
+}
+.file-btn img {
+  width: 25px;
+  height: 40px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.input-msg {
+  height: 60px;
+}
+.avatar-chat {
+  width: 35px;
+  height: 35px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.admin-blk {
+  height: 40px;
+}
+.ar-i {
+  width: 13px;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+.collapsed .ar-i {
+  -webkit-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+          transform: rotate(270deg);
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+@media (max-width: 992px) {
+  .btn-new-msg {
+    top: -46px;
+  }
+}
+@media (max-width: 767px) {
+  .clps-arr {
+    width: 25px;
+  }
+  .avatar-chat {
+    width: 22px;
+    height: 22px;
+  }
+  .chat-box::-webkit-scrollbar {
+    height: 20px;
+    width: 3px;
+  }
+  .file-btn img {
+    width: 20px;
+    height: 30px;
+  }
+  .input-msg {
+    height: 35px;
+  }
+  .admin-name {
+    z-index: 2;
+    left: 30px;
+  }
+}

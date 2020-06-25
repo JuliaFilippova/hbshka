@@ -1,0 +1,31 @@
+.collection {
+	background-image: url('../img/bg-logo-big.png');
+	background-repeat: no-repeat;
+	background-position: 3% center;
+	-webkit-background-size: 30%;
+	background-size: 30%;
+}
+.text-vert {
+	transform: rotate(-90deg);
+	left: -190px;
+	top: 40%;
+}
+.text-collection {
+	top: 30px;
+	right: 0px;
+}
+@media (max-width: 1199px) {
+	.collection {
+		background-image: none;
+	}
+	.text-vert {
+	    transform: rotate(0deg);
+	    position: relative!important;
+	    left: inherit;
+	    top: inherit;
+	    margin-bottom: 25px;
+	}
+	.text-collection {
+		position: relative!important;
+	}
+}

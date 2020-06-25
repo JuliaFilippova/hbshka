@@ -1,0 +1,60 @@
+.ab-h-1{
+    margin-top: -100px;
+}
+.video-home{
+    margin-top: -50px;
+    margin-left: -50px;
+}
+.ab-h-logo{
+    max-width: 80%;
+}
+@media (max-width: 1366px) {
+.ab-h-1 {
+    margin-top: -70px;
+}
+}
+@media (max-width: 1180px) {
+.ab-h-1 {
+    margin-top: -10px;
+}
+.video-home {
+    margin-top: -20px;
+}
+}
+
+@media (max-width: 990px) {
+.ab-h-1 {
+    margin-top: 10px;
+}
+.video-home {
+    margin-top: 0px;
+}
+.video-home iframe {
+    height: 220px;
+}
+}
+@media (max-width: 767px) {
+.ab-h-1 {
+    margin-top: 24px;
+}
+.video-home {
+    margin-top: -4px;
+    margin-left: 0;
+}
+.video-home iframe {
+    height: 320px;
+}
+}
+
+@media (max-width: 575px) {
+.bg-logo-min {
+    position: absolute;
+    max-width: 200px;
+    opacity: 0.3;
+    right: 0;
+    top: 0;
+}
+.ab-h-1 {
+    margin-top: 0;
+}
+}

@@ -1,0 +1,27 @@
+.bg-conf-logo {
+    left: 10%;
+    width: 20%;
+    top: 5%;
+}
+.bg-conf-img {
+    left: -10%;
+    bottom: 0;
+    width: 45%;
+}
+@media (max-width: 1460px) {
+.bg-conf-logo {
+    left: 16%;
+    width: 16%;
+    top: 2%;
+}
+}
+@media (max-width: 767px) {
+.bg-conf-logo,
+.bg-conf-img{
+    display: none;
+}
+}
+
+@media (max-width: 470px) {
+
+}

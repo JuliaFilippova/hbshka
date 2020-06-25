@@ -1,0 +1,12 @@
+.simplebar-track {
+    border-radius: 7px;
+    background-color: #DADADA;
+}
+.simplebar-scrollbar::before {
+    background-color: #A2A2A2;
+    left: 0px;
+    right: 0px;
+}
+.simplebar-scrollbar.simplebar-visible:before {
+    opacity: 1;
+}

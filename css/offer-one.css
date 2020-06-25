@@ -1,0 +1,104 @@
+.off-block.one {
+    background-image: url(../img/bg-offer-1.png);
+}
+
+.offer-img-1 {
+    left: 0;
+    bottom: 0;
+    max-width: 39%;
+}
+@media (max-width: 1560px) {
+    .off-block.one .col-12 {
+        padding-right: 3rem;
+    }
+}
+
+@media (max-width: 1430px) {
+    .offer-img-1 {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 1240px) {
+    .offer-img-1 {
+        max-width: 55%;
+    }
+}
+
+@media (max-width: 1190px) {
+    .offer-img-1 {
+        max-width: 54%;
+    }
+}
+
+@media (max-width: 1070px) {
+    .offer-img-1 {
+        max-width: 56%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .offer-img-1 {
+        max-width: 63%;
+        left: -5%;
+    }
+}
+
+@media (max-width: 991px) {
+    .offer-img-1 {
+        max-width: 42%;
+    }
+}
+
+@media (max-width: 949px) {
+    .offer-img-1 {
+        max-width: 48%;
+    }
+}
+
+@media (max-width: 939px) {
+    .offer-img-1 {
+        max-width: 53%;
+    }
+}
+
+@media (max-width: 800px) {
+    .offer-img-1 {
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 767px) {
+    .offer-img-1 {
+        max-width: 55%;
+        left: -30%;
+    }
+}
+
+@media (max-width: 640px) {
+    .offer-img-1 {
+        max-width: 63%;
+        left: -35%;
+    }
+}
+
+@media (max-width: 600px) {
+    .offer-img-1 {
+        max-width: 64%;
+        left: -41%;
+    }
+}
+
+@media (max-width: 470px) {
+    .offer-img-1 {
+        max-width: 67%;
+        left: -36%;
+    }
+}
+
+@media (max-width: 400px) {
+    .offer-img-1 {
+        max-width: 78%;
+        left: -43%;
+    }
+}

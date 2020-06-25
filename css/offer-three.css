@@ -1,0 +1,51 @@
+.off-block.three {
+    background-image: url(../img/bg-offer-3.png);
+}
+
+.offer-img-3 {
+    left: 25%;
+    bottom: 0;
+    max-width: 20%;
+}
+
+@media (max-width: 1240px) {
+.offer-img-3 {
+    max-width: 25%;
+    left: 20%;
+}
+}
+
+@media (max-width: 1000px) {
+.offer-img-3 {
+    max-width: 30%;
+    left: 15%;
+}
+}
+
+@media (max-width: 991px) {
+.offer-img-3 {
+    max-width: 20%;
+}
+}
+@media (max-width: 941px) {
+.offer-img-3 {
+    max-width: 25%;
+}
+}
+
+@media (max-width: 767px) {
+.offer-img-3 {
+    left: 0;
+}
+}
+
+@media (max-width: 627px) {
+.offer-img-3 {
+    max-width: 30%;
+}
+}
+@media (max-width: 575px) {
+.offer-img-3 {
+display: none;
+}
+}

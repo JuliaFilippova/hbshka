@@ -1,0 +1,22 @@
+.owl-theme .owl-nav [class*=owl-] {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+.owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+.owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent;
+}
+@media (max-width: 1460px) {
+
+@media (max-width: 767px) {
+
+
+@media (max-width: 470px) {
+
+}

@@ -1,0 +1,30 @@
+.bg-404{
+    background-image: url(../img/bg-404.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.err{
+    font-size: 140px;
+}
+@media (max-width: 800px) {
+.err {
+    font-size: 80px;
+}
+.bg-404 .p.h1.ttu.ls.mb-4 {
+    font-size: 24px;
+}
+}
+@media (max-width: 600px) {
+    .off-block p.h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 470px) {
+    .off-block p.h1 {
+        font-size: 24px;
+    }
+}

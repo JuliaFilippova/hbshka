@@ -1,0 +1,28 @@
+.card-vertical .icons-link-like span {
+    width: 25px;
+    height: 25px;
+}
+.card-vertical .owl-carousel .owl-nav button.owl-prev {
+    left: 10px;
+}
+.card-vertical .owl-carousel .owl-nav button.owl-next {
+    right: 10px;
+}
+.card-vertical .rouble {
+    height: 15px;
+}
+@media (max-width: 575px) {
+ 	.owl-carousel.product-sl-vert {
+    	max-height: 500px;
+	}
+	.owl-carousel.product-sl-vert img {
+    	max-height: 500px;
+    	width: auto!important;
+    	margin: 0 auto;
+    	display: block;
+	}
+	.vert-card {
+		max-width: 345px;
+		margin: 0 auto;
+	}
+ }

@@ -1,0 +1,245 @@
+.dropdown-menu button img {
+    width: 20px;
+    height: 15px;
+}
+.hight-top-menu {
+    height: 40px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.desc-logo {
+    width: 200px;
+}
+
+.bg-white-tr {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.hight-top-menu a {
+    white-space: nowrap;
+}
+
+.header {
+    z-index: 2;
+}
+
+.header a:hover,
+.header a:focus {
+    text-decoration: none;
+}
+
+.quan {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 10px;
+    top: 0;
+    right: 0;
+}
+
+.sub-menu {
+    top: 40px;
+    left: 0 z-index: 10;
+    max-width: 100%;
+    display: none;
+}
+
+.cat-link:hover .sub-menu {
+    display: block;
+}
+
+.login-mob,
+.mob-main-menu {
+    display: none;
+}
+
+.dropdown,
+.dropleft,
+.dropright,
+.dropup {
+    position: initial;
+}
+
+.head-pc .dropdown-menu.show {
+    left: inherit !important;
+    right: 0;
+    display: flex;
+    padding: 10px;
+    transform: none !important;
+    top: 40px !important;
+    border: 0;
+    border-radius: 0;
+    width: 300px;
+}
+
+.head-mob .dropdown-menu.show {
+    width: 100%;
+    top: 40px !important;
+    left: 0 !important;
+    transform: none !important;
+    padding: 10px;
+    display: flex;
+    border: 0;
+    border-radius: 0;
+    width: 235px;
+}
+
+button.bg-gray {
+    border: 0;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 1430px) {
+
+    .header a,
+    .header span {
+        font-size: 14px;
+    }
+
+    .desc-logo {
+        width: 155px;
+    }
+
+    img.logo-big {
+        height: 80px;
+    }
+}
+
+@media (max-width: 1220px) {
+
+    .s-p,
+    .login {
+        display: block !important;
+        position: absolute;
+        top: 50px;
+    }
+
+    .s-p {
+        padding-left: 15px;
+    }
+
+    .login {
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 1090px) {
+    .desc-logo {
+        font-size: 12px !important;
+    }
+
+    img.logo-big {
+        height: 60px;
+    }
+}
+
+@media (max-width: 940px) {
+    .desc-logo {
+        display: none !important;
+    }
+
+    .s-p,
+    .login {
+        top: 8px;
+    }
+
+    .s-p {
+        left: 150px;
+        width: 180px;
+    }
+
+    .login {
+        right: 115px;
+        width: 240px;
+        text-align: right;
+    }
+
+    .city {
+        display: none !important;
+    }
+
+    img.logo-big {
+        height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header a,
+    .header span {
+        font-size: 12px;
+    }
+
+    .s-p {
+        left: 0;
+        top: 50px;
+        width: 220px;
+    }
+
+    .left-h {
+        width: 40%;
+    }
+
+    .center-h {
+        width: 20%;
+    }
+
+    .right-h {
+        width: 40%;
+    }
+
+    .city {
+        display: inline-block !important;
+    }
+
+    img.logo-big {
+        height: 55px;
+    }
+
+    .login {
+        right: 0;
+        top: 50px;
+    }
+
+    .header .main-menu {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-menu {
+        display: none;
+    }
+
+    .mob-main-menu {
+        display: block;
+    }
+
+    .s-p {
+        display: none !important;
+    }
+
+    .bg-white-tr.py-2.px-3.ml-5 {
+        display: none;
+    }
+
+    .login {
+        display: none !important;
+    }
+
+    .header-mob p,
+    .header-mob p a {
+        font-size: 12px;
+    }
+
+    img.logo-mob {
+        height: 60px;
+    }
+}

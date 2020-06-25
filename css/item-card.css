@@ -1,0 +1,94 @@
+.owl-out .thumbs {
+    width: 14%;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+.owl-out .owl-carousel {
+    width: 83%;
+}
+button.thumb {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+button.thumb:hover{
+    box-shadow: 0 0 10px #ccc;
+}
+.i-size {
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+}
+.quantity {
+    margin-top: 0px;
+    min-width: 70px;
+}
+.value{
+    display: inline-block;
+    width: 30px;
+    border: none;
+}
+.accordion .card{
+    border:none;
+}
+.down {
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+.ar-i {
+  width: 13px;
+  transform: rotate(90deg);
+  transition: .3s;
+}
+.sizes-quantity-list{
+    margin-bottom: 0;
+}
+.collapsed .ar-i {
+  transform: rotate(270deg);
+  transition: .3s;
+}
+.accordion>.card .card-header {
+    background-color: transparent;
+    padding: 0;
+}
+.card-body {
+    padding: 0.5rem;
+}
+.accordion>.card .card-header {
+    background-color: transparent;
+}
+.heart{
+    width: 26px;
+    height: 25px;
+    background-image: url(../img/heart.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    display: block;
+    margin: auto;
+}
+.heart:hover{
+    background-image: url(../img/heart-pink.png);
+}
+.heart.heart-pink{
+    background-image: url(../img/heart-pink-fill.png);
+}
+.icons-link {
+    bottom: 10px;
+    right: 10px;
+}
+.icons-link>span {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 12px 0;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.icons-link>span img {
+    margin: auto;
+    display: block;
+}

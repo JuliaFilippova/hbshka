@@ -1,0 +1,46 @@
+.desc-akc {
+    top: 13%;
+    right: -50px;
+    width: 45%;
+}
+.text-akcii {
+    width: 18%;
+    right: 0;
+    top: 0;
+    background-image: url(../img/akc-arr.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    -webkit-background-size: 50%;
+    background-size: 50%;
+}
+.akcii.container{
+	background-image: url(../img/bg-logo-big.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	-webkit-background-size: 30%;
+	background-size: 30%;
+}
+@media (max-width: 1280px){
+.desc-akc {
+    top: 6%;
+    right: -150px;
+    width: 65%;
+}
+.text-akcii {
+    width: 100%;
+    position: relative !important;
+    background-image: none;
+}
+.desc-akc {
+    position: relative !important;
+    width: 100%;
+    right: inherit;
+    top: inherit;
+    margin-bottom: 40px;
+}
+}
+@media (max-width: 767px){
+	.akcii.container{
+	background-image: none;
+}
+}

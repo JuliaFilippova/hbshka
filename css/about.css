@@ -1,0 +1,58 @@
+.img-ab-2 {
+    float: right;
+}
+.img-ab-3 {
+    margin-left: 32%;
+    margin-top: -230px;
+}
+.img-ab-4 {
+    margin-left: 10%;
+    margin-top: -50px;
+}
+.img-ab-b-6{
+    margin-top: -40px;
+    margin-left: -40px;
+    z-index: -1;
+}
+.line-ab {
+    bottom: -120px;
+    right: 24%;
+}
+.girl-ab{
+    top: 0;
+    left:0;
+}
+@media (max-width: 1460px) {
+.img-ab-3 {
+    margin-left: 29%;
+    margin-top: -160px;
+}
+}
+@media (max-width: 1366px) {
+.img-ab-3 {
+    margin-left: 0;
+    margin-top: 0;
+    width: 50%;
+}
+.img-ab-1,
+.img-ab-2,
+.img-ab-3,
+.img-ab-4{
+    width: 50%;
+    float: left;
+}
+.img-ab-4 {
+    margin-left: 0;
+    margin-top: 0;
+}
+.img-ab-3,
+.img-ab-4{
+    margin-top: -10%;
+}
+}
+
+@media (max-width: 1280px) {
+.img-ab-b-6 {
+    margin-top: -10px;
+}
+}

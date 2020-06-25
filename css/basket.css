@@ -1,0 +1,23 @@
+.close-bsk {
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+.basket,
+.basket-profile .prfle-card  {
+	z-index: 2;
+	position: relative;
+}
+.basket .price {
+	min-width: 75px;
+}
+
+@media (max-width: 996px) {
+
+}
+@media (min-width: 1200px) {
+
+}
+@media (max-width: 1199px) {
+
+}

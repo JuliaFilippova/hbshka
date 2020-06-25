@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ХБшка</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/page-collection.css">
+    <link rel="stylesheet" href="css/collection.css">
+    <link rel="stylesheet" href="css/pagin.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/bscrmb.css">
+    <link rel="stylesheet" href="css/h-title.css">
+    <link rel="stylesheet" href="css/catalog.css">
+    <link rel="stylesheet" href="css/sort.css">
+    <link rel="stylesheet" href="css/sl-list.css">
+    <link rel="stylesheet" href="css/filters.css">
+    <link rel="stylesheet" href="css/card-item.css">
+    <link rel="stylesheet" href="css/card-item-vertical.css">
+    <link rel="stylesheet" href="css/card-item-gorisontal.css">
+    <link rel="stylesheet" href="css/favorite-products.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/cookie.css">
+</head>
+
+<body>
+    <!-- header.css -->
+    <div class="header main-menu position-relative">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 left-h d-flex justify-content-start align-items-center hight-top-menu pl-0">
+                    <a href="" class="bg-white-tr py-2 px-3 mr-4">
+                        <img src="img/comp.png" alt="" class="d-inline-block">
+                        <span class="pl-2 ls ttu text-dgray">О компании</span>
+                    </a>
+                    <div class="s-p d-flex align-items-center">
+                        <span class="text-grey ttu d-inline-block ls city">Москва</span>
+                        <a href="" class="d-inline-block ls text-dgray pl-3">+7 800 965-54-65</a>
+                    </div>
+                </div>
+                <div class="col-md-4 center-h d-flex align-items-center justify-content-center py-3 px-0">
+                    <span class="text-grey d-inline-block desc-logo text-right pr-3">Собственное производство и уникальный стиль</span>
+                    <img src="img/logo-hbshka.png" alt="ХБшка" class="logo-big">
+                    <span class="text-grey d-inline-block desc-logo pl-3">Оптовые продажи современной и качественной одежды</span>
+                </div>
+                <div class="col-md-4 right-h d-flex justify-content-end align-items-center hight-top-menu pr-0">
+                    <div class="login">
+                        <img src="img/us.png" class="pr-2" alt="">
+                        <a href="" class="ttu text-grey ls text-dgray">Вход</a>
+                        <span class="px-2">/</span>
+                        <a href="" class="ttu text-grey ls text-dgray">Регистрация</a>
+                    </div>
+                    <div class="login-mob">
+                        <img src="img/us.png" class="pr-2" alt="">
+                        <a href="" class="ttu text-grey ls text-dgray">Личный кабинет</a>
+                    </div>
+                    <div class="bg-white-tr  py-2 px-3 ml-5">
+                        <a href="" class="px-2">
+                            <img src="img/heart.png" alt="">
+                        </a>
+                        <a href="" class="px-2 d-inline-block position-relative">
+                            <img src="img/bag.png" alt="">
+                            <span class="bg-pink text-white quan position-absolute d-block">10</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row  position-relative">
+                <div class="col-12">
+                    <div class="menu bg-white-tr text-grey ttu d-flex justify-content-between align-items-center pl-3">
+                        <a href="" class="d-flex align-items-center ls text-dgray cat-link"><img src="img/cat.png" class="pr-2" alt="">Каталог</a>
+                        <a href="" class="ls text-dgray">Акции</a>
+                        <a href="" class="ls text-dgray">Новинки</a>
+                        <a href="" class="ls text-dgray">Партнерам</a>
+                        <a href="" class="ls text-dgray">Новости</a>
+                        <a href="" class="ls text-dgray">Контакты</a>
+                        <div class="dropdown head-pc">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="img/search.png" alt="Поиск по сайту" title="Поиск по сайту">
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <input type="text" class="form-control" placeholder="Username">
+                                <button class="bg-gray"><img src="img/search-mini.png" class="m-auto" alt="Искать" title="Искать"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 sub-menu position-absolute">
+                    <div class="row m-0 p-3 bg-white">
+                        <div class="col">
+                            <a href="" class="text-dgray h5 ttu">Верхняя одежда</a>
+                            <a href="" class="pl-0 pl-md-2 d-block">Шарфы и шапки</a>
+                            <a href="" class="pl-0 pl-md-2 d-block">Шарфы и шапки</a>
+                            <a href="" class="pl-0 pl-md-2 d-block">Шарфы и шапки</a>
+                            <a href="" class="pl-0 pl-md-2 d-block">Шарфы и шапки</a>
+                        </div>
+                        <div class="col">
+                            <a href="" class="text-dgray h5 ttu">Верхняя одежда</a>
+                            <div class="sub-group">
+                                <img src="img/item-menu.png" alt="" class="sub-item float-left d-none d-xl-block mt-2">
+                                <div class="sub-list">
+                                    <a href="" class="pl-0 pl-xl-4 pl-md-2 d-block">Шарфы и шапки</a>
+                                    <a href="" class="pl-0 pl-xl-4 pl-md-2 d-block">Шарфы и шапки</a>
+                                    <a href="" class="pl-0 pl-xl-4 pl-md-2 d-block">Шарфы и шапки</a>
+                                    <a href="" class="pl-0 pl-xl-4 pl-md-2 d-block">Шарфы и шапки</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <a href="" class="text-dgray h5 ttu">Верхняя одежда</a>
+                            <a href="" class="pl-0 pl-md-2 d-block">Шарфы и шапки</a>
+                            <a href="" class="pl-0 pl-md-2 d-block">Шарфы и шапки</a>
+                            <a href="" class="pl-0 pl-md-2 d-block">Шарфы и шапки</a>
+                            <a href="" class="pl-0 pl-md-2 d-block">Шарфы и шапки</a>
+                        </div>
+                        <div class="col">
+                            <a href="" class="text-dgray h5 ttu">Верхняя одежда</a>
+                            <a href="" class="pl-0 pl-md-2 d-block">Шарфы и шапки</a>
+                            <a href="" class="pl-0 pl-md-2 d-block">Шарфы и шапки</a>
+                            <a href="" class="pl-0 pl-md-2 d-block">Шарфы и шапки</a>
+                            <a href="" class="pl-0 pl-md-2 d-block">Шарфы и шапки</a>
+                        </div>
+                        <div class="col">
+                            <a href="" class="text-dgray h5 ttu">Верхняя одежда</a>
+                            <a href="" class="pl-0 pl-md-2 d-block">Шарфы и шапки</a>
+                            <a href="" class="pl-0 pl-md-2 d-block">Шарфы и шапки</a>
+                            <a href="" class="pl-0 pl-md-2 d-block">Шарфы и шапки</a>
+                            <a href="" class="pl-0 pl-md-2 d-block">Шарфы и шапки</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-mob mob-main-menu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-sm-2 p-1 d-flex justify-content-between align-items-center"><img src="img/logo-hbshka.png" alt="ХБшка" class="logo-mob"></div>
+                <div class="col-10">
+                    <div class="w-100 text-center">
+                        <p class="ttu text-dgray">Ваш отдел продаж:<a href="" class="open-city-list ttu pl-2">Выбрать</a></p>
+                    </div>
+                    <div class="w-100 d-flex justify-content-between align-items-center position-relative">
+                        <div class="dropdown  head-mob col px-0 text-center">
+                            <button class="btn dropdown-toggle p-0" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="img/search.png" alt="Поиск по сайту" title="Поиск по сайту">
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                <input type="text" class="form-control" placeholder="Username">
+                                <button class="bg-gray"><img src="img/search-mini.png" class="m-auto" alt="Искать" title="Искать"></button>
+                            </div>
+                        </div>
+                        <a href="" class="col px-0 text-center"><img src="img/us.png" alt=""></a>
+                        <a href="" class="col px-0 text-center"><img src="img/heart.png" alt=""></a>
+                        <a href="" class="col px-0 text-center px-2 d-inline-block position-relative">
+                            <img src="img/bag.png" alt="">
+                            <span class="bg-pink text-white quan position-absolute d-block">10</span>
+                        </a>
+                        <a href="" class="pl-4 col px-0 text-right"><img src="img/cat.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bscrmb.css-->
+    <div class="bscrmb">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-white my-2">
+                    <li class="breadcrumb-item tdu tmm"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item tdu tmm"><a href="#">Library</a></li>
+                    <li class="breadcrumb-item tmm active text-gray" aria-current="page">Data</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- h-title.css-->
+    <div class="h-title">
+        <div class="container">
+            <h1 class="pl-md-5 pl-3 mb-4 position-relative">Коллекция Лето</h1>
+        </div>
+    </div>
+
+    
+   <!-- collection.css-->
+   <!-- page-collection.css-->
+    <div class="page-collection collection mt-5">
+        <div class="container">
+            <!-- card-item-vertical.css -->
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
+                    <h2 class="h1 text-vert position-absolute text-dgray ls">Коллекция Лето</h2>
+                    <div class="row">
+                        <div class="vert-card col-sm-8 col-md-6 col-lg-4">
+                            <div class="card-vertical card-size d-block mb-5">
+                                <div class="position-relative">
+                                    <div class="owl-carousel owl-theme product-sl-vert">
+                                        <img src="img/cat-item.png" alt="">
+                                        <img src="img/cat-item.png" alt="">
+                                    </div>
+                                    <div class="icons-colors position-absolute">
+                                        <span class="icon-color mb-1"><span class="bg-red ic-bg"></span></span>
+                                        <span class="icon-color mb-1"><span class="bg-brown ic-bg"></span></span>
+                                        <span class="icon-color mb-1"><span class="bg-blue ic-bg"></span></span>
+                                    </div>
+                                    <div class="icons-link position-absolute">
+                                        <span class="mb-2 icons-link-like"><span class="heart heart-pink"></span></span>
+                                        <span class="mb-2"><img src="img/bag.png" alt=""></span>
+                                    </div>
+                                    <div class="ic-sale text-red position-absolute h6">
+                                        -10%
+                                    </div>
+                                    <div class="position-absolute h6 i-new text-dgray">
+                                        NEW
+                                    </div>
+                                </div>
+                                <div class="card-desc d-flex justify-content-between align-items-end mt-2">
+                                    <div class="block">
+                                        <a href="" class="text-dgray my-1">Брюки “Нежность”</a>
+                                        <p class="text-gray my-1">Размеры <span class="text-dgray ml-3">42-46</span></p>
+                                    </div>
+                                    <p class="card-desc-price h5 text-dgray mb-0"><span class="text-gray mr-2"><s>2500 ₽</s></span> 2500<span class="rouble"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 d-flex align-items-center mb-5">
+                            <iframe height="340" src="https://www.youtube.com/embed/M4z90wlwYs8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-lg-3 text-collection">
+                            <p>Сложно сказать, почему реплицированные с зарубежных источников, современные исследования, вне зависимости от их уровня, должны быть описаны максимально подробно. Вот вам яркий пример современных тенденций - глубокий уровень погружения создаёт необходимость</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 page-collection-r3">
+                <div class="col-xl-9 offset-xl-3">
+                    <div class="row">
+                        <div class="vert-card col-sm-8 col-md-4">
+                            <div class="card-vertical card-size d-block mb-5">
+                                <div class="position-relative">
+                                    <div class="owl-carousel owl-theme product-sl-vert">
+                                        <img src="img/cat-item.png" alt="">
+                                        <img src="img/cat-item.png" alt="">
+                                    </div>
+                                    <div class="icons-colors position-absolute">
+                                        <span class="icon-color mb-1"><span class="bg-red ic-bg"></span></span>
+                                        <span class="icon-color mb-1"><span class="bg-brown ic-bg"></span></span>
+                                        <span class="icon-color mb-1"><span class="bg-blue ic-bg"></span></span>
+                                    </div>
+                                    <div class="icons-link position-absolute">
+                                        <span class="mb-2 icons-link-like"><span class="heart heart-pink"></span></span>
+                                        <span class="mb-2"><img src="img/bag.png" alt=""></span>
+                                    </div>
+                                    <div class="ic-sale text-red position-absolute h6">
+                                        -10%
+                                    </div>
+                                    <div class="position-absolute h6 i-new text-dgray">
+                                        NEW
+                                    </div>
+                                </div>
+                                <div class="card-desc d-flex justify-content-between align-items-end mt-2">
+                                    <div class="block">
+                                        <a href="" class="text-dgray my-1">Брюки “Нежность”</a>
+                                        <p class="text-gray my-1">Размеры <span class="text-dgray ml-3">42-46</span></p>
+                                    </div>
+                                    <p class="card-desc-price h5 text-dgray mb-0"><span class="text-gray mr-2"><s>2500 ₽</s></span> 2500<span class="rouble"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vert-card col-sm-8 col-md-4">
+                            <div class="card-vertical card-size d-block mb-5">
+                                <div class="position-relative">
+                                    <div class="owl-carousel owl-theme product-sl-vert">
+                                        <img src="img/cat-item.png" alt="">
+                                        <img src="img/cat-item.png" alt="">
+                                    </div>
+                                    <div class="icons-colors position-absolute">
+                                        <span class="icon-color mb-1"><span class="bg-red ic-bg"></span></span>
+                                        <span class="icon-color mb-1"><span class="bg-brown ic-bg"></span></span>
+                                        <span class="icon-color mb-1"><span class="bg-blue ic-bg"></span></span>
+                                    </div>
+                                    <div class="icons-link position-absolute">
+                                        <span class="mb-2 icons-link-like"><span class="heart heart-pink"></span></span>
+                                        <span class="mb-2"><img src="img/bag.png" alt=""></span>
+                                    </div>
+                                    <div class="ic-sale text-red position-absolute h6">
+                                        -10%
+                                    </div>
+                                    <div class="position-absolute h6 i-new text-dgray">
+                                        NEW
+                                    </div>
+                                </div>
+                                <div class="card-desc d-flex justify-content-between align-items-end mt-2">
+                                    <div class="block">
+                                        <a href="" class="text-dgray my-1">Брюки “Нежность”</a>
+                                        <p class="text-gray my-1">Размеры <span class="text-dgray ml-3">42-46</span></p>
+                                    </div>
+                                    <p class="card-desc-price h5 text-dgray mb-0"><span class="text-gray mr-2"><s>2500 ₽</s></span> 2500<span class="rouble"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vert-card col-sm-8 col-md-4">
+                            <div class="card-vertical card-size d-block mb-5">
+                                <div class="position-relative">
+                                    <div class="owl-carousel owl-theme product-sl-vert">
+                                        <img src="img/cat-item.png" alt="">
+                                        <img src="img/cat-item.png" alt="">
+                                    </div>
+                                    <div class="icons-colors position-absolute">
+                                        <span class="icon-color mb-1"><span class="bg-red ic-bg"></span></span>
+                                        <span class="icon-color mb-1"><span class="bg-brown ic-bg"></span></span>
+                                        <span class="icon-color mb-1"><span class="bg-blue ic-bg"></span></span>
+                                    </div>
+                                    <div class="icons-link position-absolute">
+                                        <span class="mb-2 icons-link-like"><span class="heart heart-pink"></span></span>
+                                        <span class="mb-2"><img src="img/bag.png" alt=""></span>
+                                    </div>
+                                    <div class="ic-sale text-red position-absolute h6">
+                                        -10%
+                                    </div>
+                                    <div class="position-absolute h6 i-new text-dgray">
+                                        NEW
+                                    </div>
+                                </div>
+                                <div class="card-desc d-flex justify-content-between align-items-end mt-2">
+                                    <div class="block">
+                                        <a href="" class="text-dgray my-1">Брюки “Нежность”</a>
+                                        <p class="text-gray my-1">Размеры <span class="text-dgray ml-3">42-46</span></p>
+                                    </div>
+                                    <p class="card-desc-price h5 text-dgray mb-0"><span class="text-gray mr-2"><s>2500 ₽</s></span> 2500<span class="rouble"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 position-relative">
+                <div class="col-xl-9">
+                    <div class="row">
+                        <div class="vert-card col-sm-8 col-md-4">
+                            <div class="card-vertical card-size d-block mb-5">
+                                <div class="position-relative">
+                                    <div class="owl-carousel owl-theme product-sl-vert">
+                                        <img src="img/cat-item.png" alt="">
+                                        <img src="img/cat-item.png" alt="">
+                                    </div>
+                                    <div class="icons-colors position-absolute">
+                                        <span class="icon-color mb-1"><span class="bg-red ic-bg"></span></span>
+                                        <span class="icon-color mb-1"><span class="bg-brown ic-bg"></span></span>
+                                        <span class="icon-color mb-1"><span class="bg-blue ic-bg"></span></span>
+                                    </div>
+                                    <div class="icons-link position-absolute">
+                                        <span class="mb-2 icons-link-like"><span class="heart heart-pink"></span></span>
+                                        <span class="mb-2"><img src="img/bag.png" alt=""></span>
+                                    </div>
+                                    <div class="ic-sale text-red position-absolute h6">
+                                        -10%
+                                    </div>
+                                    <div class="position-absolute h6 i-new text-dgray">
+                                        NEW
+                                    </div>
+                                </div>
+                                <div class="card-desc d-flex justify-content-between align-items-end mt-2">
+                                    <div class="block">
+                                        <a href="" class="text-dgray my-1">Брюки “Нежность”</a>
+                                        <p class="text-gray my-1">Размеры <span class="text-dgray ml-3">42-46</span></p>
+                                    </div>
+                                    <p class="card-desc-price h5 text-dgray mb-0"><span class="text-gray mr-2"><s>2500 ₽</s></span> 2500<span class="rouble"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vert-card col-sm-8 col-md-4">
+                            <div class="card-vertical card-size d-block mb-5">
+                                <div class="position-relative">
+                                    <div class="owl-carousel owl-theme product-sl-vert">
+                                        <img src="img/cat-item.png" alt="">
+                                        <img src="img/cat-item.png" alt="">
+                                    </div>
+                                    <div class="icons-colors position-absolute">
+                                        <span class="icon-color mb-1"><span class="bg-red ic-bg"></span></span>
+                                        <span class="icon-color mb-1"><span class="bg-brown ic-bg"></span></span>
+                                        <span class="icon-color mb-1"><span class="bg-blue ic-bg"></span></span>
+                                    </div>
+                                    <div class="icons-link position-absolute">
+                                        <span class="mb-2 icons-link-like"><span class="heart heart-pink"></span></span>
+                                        <span class="mb-2"><img src="img/bag.png" alt=""></span>
+                                    </div>
+                                    <div class="ic-sale text-red position-absolute h6">
+                                        -10%
+                                    </div>
+                                    <div class="position-absolute h6 i-new text-dgray">
+                                        NEW
+                                    </div>
+                                </div>
+                                <div class="card-desc d-flex justify-content-between align-items-end mt-2">
+                                    <div class="block">
+                                        <a href="" class="text-dgray my-1">Брюки “Нежность”</a>
+                                        <p class="text-gray my-1">Размеры <span class="text-dgray ml-3">42-46</span></p>
+                                    </div>
+                                    <p class="card-desc-price h5 text-dgray mb-0"><span class="text-gray mr-2"><s>2500 ₽</s></span> 2500<span class="rouble"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vert-card col-sm-8 col-md-4">
+                            <div class="card-vertical card-size d-block mb-5">
+                                <div class="position-relative">
+                                    <div class="owl-carousel owl-theme product-sl-vert">
+                                        <img src="img/cat-item.png" alt="">
+                                        <img src="img/cat-item.png" alt="">
+                                    </div>
+                                    <div class="icons-colors position-absolute">
+                                        <span class="icon-color mb-1"><span class="bg-red ic-bg"></span></span>
+                                        <span class="icon-color mb-1"><span class="bg-brown ic-bg"></span></span>
+                                        <span class="icon-color mb-1"><span class="bg-blue ic-bg"></span></span>
+                                    </div>
+                                    <div class="icons-link position-absolute">
+                                        <span class="mb-2 icons-link-like"><span class="heart heart-pink"></span></span>
+                                        <span class="mb-2"><img src="img/bag.png" alt=""></span>
+                                    </div>
+                                    <div class="ic-sale text-red position-absolute h6">
+                                        -10%
+                                    </div>
+                                    <div class="position-absolute h6 i-new text-dgray">
+                                        NEW
+                                    </div>
+                                </div>
+                                <div class="card-desc d-flex justify-content-between align-items-end mt-2">
+                                    <div class="block">
+                                        <a href="" class="text-dgray my-1">Брюки “Нежность”</a>
+                                        <p class="text-gray my-1">Размеры <span class="text-dgray ml-3">42-46</span></p>
+                                    </div>
+                                    <p class="card-desc-price h5 text-dgray mb-0"><span class="text-gray mr-2"><s>2500 ₽</s></span> 2500<span class="rouble"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center text-md-right">
+                    <a href="" class="btn ls btn-outline-dark ttu d-inline mt-4">Посмотреть все</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer.css -->
+    <footer class="footer bg-dgray pt-5 pb-2 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg col-sm-7 order-2 order-lg-1 mt-5 mb-4 mt-sm-0 mb-sm-0">
+                    <div class="row">
+                        <div class="col-sm-6 col-5 mx-auto">
+                            <p class="h4 ttu text-white ls mb-3">Продукция</p>
+                            <ul class="f-menu list-style pr-2">
+                                <li>
+                                    <a href="" class="h5 ls text-white mb-2 d-block">Каталог</a>
+                                </li>
+                                <li>
+                                    <a href="" class="h5 ls text-white mb-2 d-block">Акции</a>
+                                </li>
+                                <li>
+                                    <a href="" class="h5 ls text-white mb-2 d-block">Новинки</a>
+                                </li>
+                                <li>
+                                    <a href="" class="h5 ls text-white mb-2 d-block">Коллекции</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-5 mx-auto">
+                            <p class="h4 ttu text-white ls mb-3">Покупателям</p>
+                            <ul class="f-menu list-style line-left">
+                                <li>
+                                    <a href="" class="h5 ls text-white mb-2 d-block">Новости</a>
+                                </li>
+                                <li>
+                                    <a href="" class="h5 ls text-white mb-2 d-block">О компании</a>
+                                </li>
+                                <li>
+                                    <a href="" class="h5 ls text-white mb-2 d-block">Гарантия и возврат</a>
+                                </li>
+                                <li>
+                                    <a href="" class="h5 ls text-white mb-2 d-block">Оформление заказа</a>
+                                </li>
+                                <li>
+                                    <a href="" class="h5 ls text-white mb-2 d-block">Cпособы оплаты</a>
+                                </li>
+                                <li>
+                                    <a href="" class="h5 ls text-white mb-2 d-block">Регистрация на сайте</a>
+                                </li>
+                                <li>
+                                    <a href="" class="h5 ls text-white mb-2 d-block">Партнерам</a>
+                                </li>
+                                <li>
+                                    <a href="" class="h5 ls text-white mb-2 d-block">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-5 order-1 order-lg-2">
+                    <img src="img/f-logo.png" class="mx-lg-auto mr-sm-auto mx-auto d-block f-logo" alt="">
+                </div>
+                <div class="col-lg col-sm-12 order-3 order-lg-3">
+                    <div class="social-row d-flex justify-content-center justify-content-lg-start">
+                        <a href="" class="social-link bg-white ml-lg-auto"><img src="img/vk.png" alt=""></a>
+                        <a href="" class="social-link bg-white"><img src="img/goog.png" alt=""></a>
+                        <a href="" class="social-link bg-white"><img src="img/ok.png" alt=""></a>
+                        <a href="" class="social-link bg-white"><img src="img/fb.png" alt=""></a>
+                        <a href="" class="social-link bg-white"><img src="img/goog.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mt-4">
+                    <p class="mb-3 text-white">
+                        Вся информация о товарах взята из открытых источников и не является публичной офертой. Изображения и технические характеристики могут отличаться от реальных. Проверяйте технические данные в момент приема и оплаты товара
+                    </p>
+                    <p class="text-white mb-0">
+                        Юридическое лицо ИНН: 000000000000
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- cookie.css -->
+    <div class="row">
+        <div class="col-lg-8 col-md-10 col-11 bg-white cookie-fixed">
+            <div class="d-md-flex align-items-center justify-content-between d-block p-2">
+                <p class="text-dgray mb-0 f-14 mb-2 mb-md-0 f-12-m">Этот веб-сайт использует файлы cookie для повышения удобства работы с веб-сайтом.</p>
+                <a href="" class="btn ls btn-outline-dark f-14 f-12-m">Даю согласие НА ИСПОЛЬЗОВАНИЕ ФАЙЛОВ COOKIE</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        /// Субменю каталога в главном меню
+        $(function() {
+            let isCatalogHover = false;
+            $('.cat-link').hover(function() {
+                $('.sub-menu').css('display', 'block');
+                clearTimeout($.data(this, 'timer'));
+            },
+            function() {
+                $.data(this, 'timer', setTimeout(function() {
+                    !isCatalogHover && $('.sub-menu').css('display', 'none');
+                }, 200));
+            });
+
+            $('.sub-menu').hover(function() {
+                isCatalogHover = true;
+            },
+            function() {
+                isCatalogHover = false;
+                $('.sub-menu').css('display', 'none');
+            });
+        });
+
+        $(document).ready(function() {
+            $('.slider .owl-dots').addClass('d-flex align-items-center');
+            $('.slider .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 0,
+                autoplay: true,
+                autoplayTimeout: 10000,
+                responsive: {
+                    0: {
+                        items: 1
+                    }
+                }
+            })
+            $('.owl-carousel.product-sl-vert').owlCarousel({
+                loop: true,
+                margin: 0,
+                autoplay: false,
+                dots: false,
+                nav:true,
+                navText:["<img src='img/arr-sl-prew-min.png'>","<img src='img/arr-sl-next-min.png'>"],
+                responsive: {
+                    0: {
+                        items: 1
+                    }
+                }
+            })
+            $('.owl-carousel.product-sl').owlCarousel({
+                loop: true,
+                margin: 0,
+                autoplay: false,
+                dots: false,
+                nav:true,
+                navText:["<img src='img/arr-sl-prew-min.png'>","<img src='img/arr-sl-next-min.png'>"],
+                responsive: {
+                    0: {
+                        items: 1
+                    }
+                }
+            })
+        });
+    </script>
+</body>
+
+</html>

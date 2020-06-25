@@ -1,0 +1,76 @@
+.flow-around {
+    margin: 15px 15px 0px 0;
+    max-width: 50%;
+    float: left;
+}
+
+.journal .desc-card {
+    max-width: 90%;
+}
+.journal .bottom-1 {
+	bottom: -120px!important;
+}
+.journ-owl .owl-nav {
+    display: block !important;
+}
+.card-mb {
+	margin-bottom: 160px!important;
+}
+@media (max-width: 1199px) {
+	.card-desc {
+		flex-direction: column;
+	}
+}
+@media (max-width: 991px) {
+    .card-mt {
+        margin-top: -210px;
+    }
+
+    .card-size {
+        width: 300px;
+        margin: auto;
+    }
+}
+@media (max-width: 700px) {
+    .flow-around {
+        margin: 10px 0;
+        max-width: 100%;
+    }
+    img[align] {
+	    max-width: 100%;
+	}
+}
+@media (max-width: 630px) {
+    .card-size {
+        width: 100%;
+    }
+}
+@media (max-width: 575px) {
+    .card-size {
+        width: 200px;
+        margin-bottom: 0 !important;
+    }
+    .journal .desc-card {
+	    max-width: 98%;
+	    bottom: 30px;
+	    left: 2px;
+	}
+	.journal .desc-card {
+	    bottom: 5px;
+	}
+.journal .bottom-1 {
+    position: relative !important;
+    bottom: inherit !important;
+}
+}
+
+@media (max-width: 459px) {
+    .card-size { 
+    	width: 180px;
+    }
+}
+@media (max-width: 419px) {
+    .card-size {
+        width: 300px;
+    }
+}

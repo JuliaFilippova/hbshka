@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ХБшка</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/personal.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/bscrmb.css">
+    <link rel="stylesheet" href="css/h-title.css">
+    <link rel="stylesheet" href="css/conf.css">
+</head>
+
+<body>
+    <div class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <button type="button" class="close mt-4 mr-4 ml-auto" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="modal-body">
+            <div class="row">
+                <div class="col-12">
+                    <div class="table-cards">
+                        <div class="row mx-0 tbl-tr d-none d-md-flex">
+                            <div class="col-md-2 p-2 h6 text-dgray">Российский размер</div>
+                            <div class="col-md-2 p-2 h6 text-dgray">Международный INT</div>
+                            <div class="col-md-2 p-2 h6">Грудь, см</div>
+                            <div class="col-md-2 p-2 h6">Талия, см</div>
+                            <div class="col-md-2 p-2 h6">Бедра, см</div>
+                            <div class="col-sm-2 p-2 h6">Рукав, см</div>
+                        </div>
+                        <div class="row mx-0 d-flex align-items-center my-3 my-md-0 py-md-0 py-3">
+                            <!-- 1 размер -->
+                            <div class="col-12 mb-2 mb-md-0 tbl-tr">
+                                <div class="row">
+                                    <div class="col-md-2 p-2 col-12 d-flex align-items-baseline">
+                                        <span class="d-block d-md-none h6 mr-4">Российский размер</span>
+                                        <span>38</span>
+                                    </div>
+                                    <div class="col-md-2 p-2 col-12 d-flex align-items-baseline">
+                                        <span class="d-block d-md-none h6 mr-4">Международный INT</span>
+                                        <span>XXS</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 p-2 col-6 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Грудь, см</span>
+                                        <span>76-80</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-6 p-2 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Талия, см</span>
+                                        <span>55-58</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-6 p-2 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Бедра, см</span>
+                                        <span>82-85</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 p-2 col-6 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Рукав, см</span>
+                                        <span>58-60</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2 размер -->
+                            <div class="col-12 mb-2 mb-md-0 tbl-tr">
+                                <div class="row">
+                                    <div class="col-md-2 p-2 col-12 d-flex align-items-baseline">
+                                        <span class="d-block d-md-none h6 mr-4">Российский размер</span>
+                                        <span>40</span>
+                                    </div>
+                                    <div class="col-md-2 p-2 col-12 d-flex align-items-baseline">
+                                        <span class="d-block d-md-none h6 mr-4">Международный INT</span>
+                                        <span>XS</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 p-2 col-6 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Грудь, см</span>
+                                        <span>80-84</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-6 p-2 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Талия, см</span>
+                                        <span>59-62</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-6 p-2 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Бедра, см</span>
+                                        <span>86-89</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 p-2 col-6 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Рукав, см</span>
+                                        <span>59-61</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 3 размер -->
+                            <div class="col-12 mb-2 mb-md-0 tbl-tr">
+                                <div class="row">
+                                    <div class="col-md-2 p-2 col-12 d-flex align-items-baseline">
+                                        <span class="d-block d-md-none h6 mr-4">Российский размер</span>
+                                        <span>42</span>
+                                    </div>
+                                    <div class="col-md-2 p-2 col-12 d-flex align-items-baseline">
+                                        <span class="d-block d-md-none h6 mr-4">Международный INT</span>
+                                        <span>S</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 p-2 col-6 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Грудь, см</span>
+                                        <span>84-88</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-6 p-2 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Талия, см</span>
+                                        <span>63-66</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-6 p-2 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Бедра, см</span>
+                                        <span>90-93</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 p-2 col-6 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Рукав, см</span>
+                                        <span>59-61</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 4 размер -->
+                            <div class="col-12 mb-2 mb-md-0 tbl-tr">
+                                <div class="row">
+                                    <div class="col-md-2 p-2 col-12 d-flex align-items-baseline">
+                                        <span class="d-block d-md-none h6 mr-4">Российский размер</span>
+                                        <span>44</span>
+                                    </div>
+                                    <div class="col-md-2 p-2 col-12 d-flex align-items-baseline">
+                                        <span class="d-block d-md-none h6 mr-4">Международный INT</span>
+                                        <span>M</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 p-2 col-6 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Грудь, см</span>
+                                        <span>88-92</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-6 p-2 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Талия, см</span>
+                                        <span>67-70</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-6 p-2 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Бедра, см</span>
+                                        <span>94-97</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 p-2 col-6 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Рукав, см</span>
+                                        <span>60-62</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 5 размер -->
+                            <div class="col-12 mb-2 mb-md-0 tbl-tr">
+                                <div class="row">
+                                    <div class="col-md-2 p-2 col-12 d-flex align-items-baseline">
+                                        <span class="d-block d-md-none h6 mr-4">Российский размер</span>
+                                        <span>44</span>
+                                    </div>
+                                    <div class="col-md-2 p-2 col-12 d-flex align-items-baseline">
+                                        <span class="d-block d-md-none h6 mr-4">Международный INT</span>
+                                        <span>M</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 p-2 col-6 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Грудь, см</span>
+                                        <span>92-96</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-6 p-2 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Талия, см</span>
+                                        <span>71-74</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-6 p-2 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Бедра, см</span>
+                                        <span>98-101</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 p-2 col-6 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Рукав, см</span>
+                                        <span>60-62</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 6 размер -->
+                            <div class="col-12 mb-2 mb-md-0 tbl-tr">
+                                <div class="row">
+                                    <div class="col-md-2 p-2 col-12 d-flex align-items-baseline">
+                                        <span class="d-block d-md-none h6 mr-4">Российский размер</span>
+                                        <span>48</span>
+                                    </div>
+                                    <div class="col-md-2 p-2 col-12 d-flex align-items-baseline">
+                                        <span class="d-block d-md-none h6 mr-4">Международный INT</span>
+                                        <span>L</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 p-2 col-6 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Грудь, см</span>
+                                        <span>96-100</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-6 p-2 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Талия, см</span>
+                                        <span>75-78</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-6 p-2 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Бедра, см</span>
+                                        <span>102-105</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 p-2 col-6 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Рукав, см</span>
+                                        <span>60-62</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 7 размер -->
+                            <div class="col-12 mb-2 mb-md-0 tbl-tr">
+                                <div class="row">
+                                    <div class="col-md-2 p-2 col-12 d-flex align-items-baseline">
+                                        <span class="d-block d-md-none h6 mr-4">Российский размер</span>
+                                        <span>50</span>
+                                    </div>
+                                    <div class="col-md-2 p-2 col-12 d-flex align-items-baseline">
+                                        <span class="d-block d-md-none h6 mr-4">Международный INT</span>
+                                        <span>L</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 p-2 col-6 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Грудь, см</span>
+                                        <span>100-104</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-6 p-2 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Талия, см</span>
+                                        <span>79-83</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-6 p-2 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Бедра, см</span>
+                                        <span>106-109</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 p-2 col-6 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Рукав, см</span>
+                                        <span>61-63</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 8 размер -->
+                            <div class="col-12 mb-2 mb-md-0 tbl-tr">
+                                <div class="row">
+                                    <div class="col-md-2 p-2 col-12 d-flex align-items-baseline">
+                                        <span class="d-block d-md-none h6 mr-4">Российский размер</span>
+                                        <span>52</span>
+                                    </div>
+                                    <div class="col-md-2 p-2 col-12 d-flex align-items-baseline">
+                                        <span class="d-block d-md-none h6 mr-4">Международный INT</span>
+                                        <span>XL</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 p-2 col-6 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Грудь, см</span>
+                                        <span>104-108</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-6 p-2 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Талия, см</span>
+                                        <span>84-87</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-6 p-2 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Бедра, см</span>
+                                        <span>110-113</span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 p-2 col-6 d-flex align-items-baseline flex-column">
+                                        <span class="d-inline-block pr-3 d-md-none text-dgray">Рукав, см</span>
+                                        <span>61-63</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</body>
+
+</html>
